@@ -1,9 +1,12 @@
+
 Personal-Repo
+Practicing and Learning Programming Languages
 
-Practicing and learning Languages
-=================================
+This repository contains codes and projects created by a beginner (i.e., me, Priyanshu). Some of the files may be incomplete or a work-in-progress, as they are purely for learning purposes.
 
-# LocalRepo
+LocalRepo
+Personal-Repo
+At the moment, I am not a professional in using Git and GitHub. I sincerely apologize for any issues or inconveniences caused. I am actively learning and will work on improving and correcting my mistakes in the future.
 
-=======
-#Personal-Repo
+Thank you!
+
