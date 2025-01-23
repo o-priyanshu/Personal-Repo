@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Music App</title>
+    <link rel="stylesheet" href="styles2.css">
+    
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <h2>Music App</h2>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#search">Search</a></li>
+                    <li><a href="#library">Library</a></li>
+                    <li><a href="#profile">Profile</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <section class="playlist">
+                <h2>Playlist</h2>
+                <ul id="playlist">
+                    <!-- Example songs -->
+                    <li>
+                        <img src="album-cover1.jpg" alt="Album Cover">
+                        <div>
+                            <h3>Song Title 1</h3>
+                            <p>Artist Name</p>
+                        </div>
+                        <button class="play-btn" data-song="song1.mp3">Play</button>
+                    </li>
+                    <li>
+                        <img src="album-cover2.jpg" alt="Album Cover">
+                        <div>
+                            <h3>Song Title 2</h3>
+                            <p>Artist Name</p>
+                        </div>
+                        <button class="play-btn" data-song="song2.mp3">Play</button>
+                    </li>
+                    <!-- Add more songs here -->
+                </ul>
+            </section>
+
+            <!-- Playback Controls -->
+            <section class="controls">
+                <div class="controls-content">
+                    <button id="prev-btn">Previous</button>
+                    <button id="play-btn">Play</button>
+                    <button id="pause-btn" style="display: none;">Pause</button>
+                    <button id="next-btn">Next</button>
+                </div>
+            </section>
+        </main>
+    </div>
+    
+    <!-- Audio Element -->
+    <audio id="audio-player" controls style="display: none;"></audio>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>

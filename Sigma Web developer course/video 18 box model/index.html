@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Boxmodel</title>
+    <style>
+        *{
+            margin:0%;           
+            padding:0%;
+        }
+        .box{
+            background-color: rgb(255, 187, 0);
+            
+        }
+        .box1{
+            color: blueviolet;
+           padding: 10px;
+           margin: 25px;
+           border: 2px solid black;
+           height: 200px;
+           /* it means no include of padding and border ( the height of content is 50px) */
+           box-sizing: border-box;
+           /* box-sizing: border-box;( its means content + padding + border ) here the height is 50px but after adding padding,content,border */
+        }
+        .box2{
+            color: white;
+            color: blueviolet;
+           padding: 10px;
+           margin: 25px;
+           border: 2px solid rgb(0, 16, 236);
+           height: 200px;
+           box-sizing: border-box;
+        }
+        /* margin collapse - it means two boxs collinding each other but jiss ka margin jyada hoga uska lag jyga  */
+    </style>
+
+</head>
+<body>
+    <div class="box box1">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, repudiandae?
+    </div>
+    <div class="box box2">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+    </div>
+</body>
+</html>

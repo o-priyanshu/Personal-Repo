@@ -1,0 +1,7 @@
+notes
+1- using of external fonts
+line height is used for spacing btw paragraphs or heading. Its spacing element
+line spacing is used for alphabet space ( ff names spaces wle)
+text indent is used for left side space 
+text overflow is used when texts overflows the box of content so this tag helps to break the text,continue in hidden etc
+word break is used to break the words like priyan in first line and shu in second line

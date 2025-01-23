@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 100vw;
+            height: 100vh;
+
+
+            background-image: url('background evening.jpg');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+
+            position: relative;
+
+            overflow: hidden;
+
+
+        }
+
+      
+
+        
+        .sun {
+            height: 100px;
+            width: 100px;
+            
+            position: absolute;
+            top: 100px;
+            left: -10px;
+            
+            background-color: orange;
+            border-radius: 50%;
+
+            animation-name: sun;
+            animation-duration: 5s;
+            animation-delay: 1.1ms;
+            animation-timing-function: linear;
+            
+            animation-iteration-count: infinite;
+        }
+        @keyframes sun{
+            form{
+                top: 100px;
+                left: -10px;
+            }
+            to{
+                top: 100px;
+                left: 110%;
+                
+            }
+        }
+        .first-cloud {
+            height: 200px;
+            width: auto;
+            
+            position: absolute;
+            
+            top: 30px;
+            left: 500px;
+            opacity: 0.7;
+            
+            animation-name: first-cloud;
+            animation-duration: 5s;
+            animation-delay: 1ms;
+            animation-timing-function: linear;
+            
+            animation-iteration-count: infinite;
+         
+
+        }
+        @keyframes first-cloud{
+         form{
+            top: 30px;
+            left: 500px;
+         }
+         to{
+            top: 30px;
+            left: 110%;
+         }
+        }
+        .first-cloud7 {
+            height: 200px;
+            width: auto;
+
+            position: absolute;
+
+            top: 0px;
+            left: 70px;
+            opacity: 0.7;
+
+              
+            animation-name: first-cloud7;
+            animation-duration: 5s;
+            animation-delay: 9ms;
+            animation-timing-function: linear;
+            
+            animation-iteration-count: infinite;
+
+        }
+
+        @keyframes first-cloud7{
+         form{
+            top: 0px;
+            left: 70px;
+         }
+         to{
+            top: 0px;
+            left: 110%;
+         }
+        }
+        
+        .first-cloud8 {
+            height: 200px;
+            width: auto;
+
+            position: absolute;
+
+            top: 50px;
+            left: 110px;
+            opacity: 0.7;
+
+              
+            animation-name: first-cloud8;
+            animation-duration: 5s;
+            animation-delay: 1s;
+            animation-timing-function: linear;
+            
+            animation-iteration-count: infinite;
+
+        }
+
+        @keyframes first-cloud8{
+         form{
+          
+            top: 50px;
+            left: 110px;
+         }
+         to{
+            top: 50px;
+            left: 110%;
+         }
+
+        }
+         .first-cloud2 {
+            height: 200px;
+            width: auto;
+            
+            position: absolute;
+            
+            top: 0px;
+            left: 600px;
+            opacity: 0.7;
+
+                    animation-name: first-cloud8;
+            animation-duration: 5s;
+            animation-delay: 1s;
+            animation-timing-function: linear;
+            
+            animation-iteration-count: infinite;
+            
+        }
+
+        @keyframes first-cloud2{
+         form{
+          
+            top: 0px;
+            left: 600px;
+         }
+         to{
+            top: 0px;
+            left: 110%;
+         }
+        }
+        .first-cloud3 {
+            height: 200px;
+            width: auto;
+            
+            position: absolute;
+            
+            top: 10px;
+            left: -10px;
+            opacity: 0.7;
+
+            animation-name: first-cloud8;
+            animation-duration: 5s;
+            animation-delay: 1s;
+            animation-timing-function: linear;
+            
+            animation-iteration-count: infinite;
+            
+        }
+             @keyframes first-cloud3{
+         form{
+          
+            top: 10px;
+            left: -10px;
+         }
+         to{
+            top: 10px;
+            left: -10%;
+         }
+        }
+        
+        .first-cloud4 {
+            height: 200px;
+            width: auto;
+
+            position: absolute;
+
+            top: 50px;
+            left: 1000px;
+            opacity: 0.7;
+
+                    animation-name: first-cloud8;
+            animation-duration: 5s;
+            animation-delay: 1s;
+            animation-timing-function: linear;
+            
+            animation-iteration-count: infinite;
+
+        }
+             @keyframes first-cloud4{
+         form{
+          
+            top: 50px;
+            left: 1000px;
+         }
+         to{
+            top: 50px;
+            left: 110%;
+         }
+        }
+        
+        .first-cloud5 {
+            height: 200px;
+            width: auto;
+
+            position: absolute;
+
+            top: 50px;
+            left: 1200px;
+            opacity: 0.7;
+
+                    animation-name: first-cloud8;
+            animation-duration: 5s;
+            animation-delay: 2s;
+            animation-timing-function: linear;
+            
+            animation-iteration-count: infinite;
+
+        }
+             @keyframes first-cloud5{
+         form{
+          
+            top: 50px;
+            left: 1200px;
+         }
+         to{
+            top: 50px;
+            left: 110%;
+         }
+        }
+        
+        .first-cloud6 {
+            height: 200px;
+            width: auto;
+
+            position: absolute;
+
+            top: 0px;
+            left: 1100px;
+            opacity: 0.7;
+
+                    animation-name: first-cloud8;
+            animation-duration: 5s;
+            animation-delay: 1ms;
+            animation-timing-function: linear;
+            
+            animation-iteration-count: infinite;
+
+        }
+             @keyframes first-cloud6{
+         form{
+          
+            top: 0px;
+            left: 1100px;
+         }
+         to{
+            top: 0px;
+            left: 110%;
+         }
+        }
+        
+         
+    </style>
+</head>
+
+<body>
+    <div class="container">
+       
+            <div class="sun">
+
+            </div>
+
+            <div class="first-cloud">
+                <img src="orange.png" alt="" height="100%" width="100%">
+             </div>
+             <div class="first-cloud2">
+                <img src="orange.png" alt="" height="100%" width="100%">
+            </div>
+            <div class="first-cloud3"> -->
+                 <img src="orange.png" alt="" height="100%" width="100%">
+                
+            </div>
+            <div class="first-cloud4">
+                <img src="orange.png" alt="" height="100%" width="100%">
+            </div>
+            <div class="first-cloud5">
+                <img src="orange.png" alt="" height="100%" width="100%">
+            </div>
+            <div class="first-cloud6">
+                <img src="orange.png" alt="" height="100%" width="100%">
+            </div>   
+            <div class="first-cloud7">
+                <img src="orange.png" alt="" height="100%" width="100%">
+            </div>
+            <div class="first-cloud8">
+                <img src="orange.png" alt="" height="100%" width="100%">
+            </div>
+               
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform Property</title>
+    <style>
+        .transform{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 50px;
+        }
+        .box{
+            width: 100px;
+            height: 100px;
+
+            text-align: center;
+            border:2px solid black ;
+            box-shadow: 10px 10px 10px 5px gray;
+        }
+        #a1{
+            /* transform: rotateX(180deg); */
+            /* transform: rotateY(180deg); */
+            /* transform: rotateZ(150deg); */
+            transform: rotate(45deg);
+        }
+        #a2{
+            /* transform: scaleX(1.2);    vertical */
+            /* transform: scaleY(1.2);  horizontal */
+            /* transform: scaleZ(54); */
+            transform: scale(1.2);
+
+        }
+        #a3{
+            /* transform: skewX(20deg) */
+            /* transform: skewY(30deg); */
+            transform: skew(-20deg,20deg);
+        }
+        #a4{
+            /* transform: translateX(100px);  left to right*/
+            /* transform: translateY(-50px); top to bottom or bottom to top with negative value */
+            transform: translate(20px,50px); /*for movement*/
+        }
+
+        /* can't use two transistions in one div */
+        
+    </style>
+</head>
+<body>
+    <div class="transform">
+        <div id="a1" class="box">rotate</div>
+        <div id="a2" class="box">scale</div>
+        <div id="a3" class="box">skew</div>
+        <div id="a4" class="box">translate</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,156 @@
+1 -Write a program to print Your name 5 times on the screen. Solution
+2- Write a program to print first 10 natural numbers.Solution
+//doubt
+
+3- Write a program to print first 10 natural numbers in reverse order.Solution
+
+
+4- Write a program to print first N natural numbers. (N is given by user)Solution
+doubt
+
+5- Write a program to print first N natural numbers in reverse order. (N is given by user)Solution
+
+6- Write a program to print first 10 even natural numbers.Solution
+
+7- Write a program to print first 10 odd natural numbers.Solution
+//doubt
+
+8- Write a program to print first N even natural numbers.Solution
+
+
+9- Write a program to print first N odd natural numbers.Solution
+
+
+10- Write a program to print first N even natural numbers in reverse orderSolution
+
+
+11- Write a program to print first N odd natural numbers in reverse orderSolution
+ans3
+
+12-Write a program to print table of user’s choiceSolution
+
+
+13- Write a program to calculate sum of first N natural numbers Solution
+//doubt
+
+14- Write a program to calculate product of first N natural numbersSolution
+
+15- Write a program to calculate factorial of a numberSolution
+//doubt 
+
+16- Write a program to calculate sum of first N even natural numbersSolution
+
+17- Write a program to calculate sum of first N odd natural numbersSolution
+
+18- Write a program to calculate x power y.(when user input x is 2 and y is 3 then the result will be 8)Solution
+
+19 - Write a program to count digits in a given number.Solution
+
+20- Write a program to calculate sum of the digits of a given number Solution
+
+21- Write a program to reverse a number Solution
+
+22- Write a program to print all Armstrong numbers under 1000.Solution
+
+23- Write a program to calculate LCM of two numbersSolution
+
+24- Write a program to calculate HCF of two numbers.Solution
+
+25- Write a program to check whether a given number is prime or notSolution
+
+26- Write a program to print all prime numbers between two given numbersSolution
+
+27- Write a program to print all prime factors of a given number. For example prime factors of 36 are 2,2,3,3Solution
+
+28- Write a program to print first N terms of Fibonacci seriesSolution
+
+29- Write a program to check co-prime numberSolution
+
+30 -Write a program to print N co-prime numbersSolution
+
+31- Write a program to convert a binary number to decimal number
+
+32- Write a program to convert a binary number to decimal number improved logic
+
+33- Program to print ASCII chartSolution
+
+34- Program to print first n positive numbers with two bits setSolution first logic|Solution Second Logic
+
+35- Star Pattern-1 Program in CSolution
+
+36- Star Pattern-2 Program in CSolution
+
+Star Pattern-3 Program in C Solution
+
+Star Pattern-4 Program in CSolution
+
+Star Pattern-5 Program in CSolution
+
+Star Pattern-6 Program in C Solution
+
+Star Pattern-7 Program in C Solution
+
+Star Pattern-8 Program in C Solution
+
+Star Pattern-9 Program in CSolution
+
+Star Pattern-10 Program in C Solution
+
+Star Pattern-11 Program in C Solution
+
+Star Pattern-12 Program in C Solution
+
+Star Pattern-13 Program in CSolution
+
+Star Pattern-14 Program in CSolution
+
+Star Pattern-15 Program in CSolution
+
+Star Pattern-16 Program in CSolution
+
+Star Pattern-17 Program in CSolution
+
+Star Pattern-18 Program in CSolution
+
+Star Pattern-19 Program in CSolution
+
+Star Pattern-20 Program in CSolution
+
+Star Pattern-21 Program in CSolution
+
+Star Pattern-22 Program in CSolution
+
+Star Pattern-23 Program in CSolution
+
+Star Pattern-24 Program in CSolution
+
+Star Pattern-25 Program in CSolution
+
+Star Pattern-26 Program in CSolution
+
+Star Pattern-27 Program in CSolution
+
+Star Pattern-28 Program in CSolution
+
+Star Pattern-29 Program in CSolution
+
+Star Pattern-30 Program in C Solution
+
+Star Pattern-31 Program in C Solution
+
+Star Pattern-32 Program in C Solution
+
+Star Pattern-33 Program in C Solution
+
+Star Pattern-34 Program in C Solution
+
+Star Pattern-35 Program in CSolution
+
+Star Pattern-35 Program in CSolution
+
+Series Problems Program in C1+(1+2)+(1+2+3)+…+(1+2+3+…+N)
+
+Series Problems Print first N Prime numbers
+
+
+D:\C question\loops>

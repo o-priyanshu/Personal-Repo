@@ -1,0 +1,114 @@
+/* Whole document Css  */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+/* Whole body Css  */
+.container{
+    height: 100vh;
+    width: 100vw;
+    overflow: auto;
+    border-collapse: collapse;
+}
+html{
+    background-color:  rgba(255, 255, 255, 0.808);
+  
+}
+
+/*  Nav bar Css */
+.nav-side li a{
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(241, 241, 241);
+}
+
+#nav-list li{
+    font-size: 1.3rem;
+    list-style: none;
+    color: aliceblue;
+}
+#nav-list,.nav-side{
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-container{
+    padding: 30px;
+    border-bottom: 3px solid rgb(0, 0, 0);
+    font-size: 1.3rem;
+    position: relative;
+    border-collapse: collapse;
+    background-color:rgb(218, 86, 150);
+}
+
+/* Starting of main body css ( content ) */
+#content{
+    padding: 20px;
+    width: 50%;
+    margin: auto;
+    border:0px solid rgb(0, 0, 0);
+    border-width: 0px 3px 0px 3px;
+    box-shadow: 10px 15px 10px 5px rgba(62, 62, 62, 0.54);
+    overflow-x: auto;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-collapse: collapse;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+
+}
+.item{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    line-height: 1.5;
+    align-items: center;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+    .leftBox{
+        display: flex;
+        flex-direction: column;
+        margin: 40px;
+        gap: 40px;
+    } 
+    .rightBox{
+        position: relative;
+        overflow: hidden;
+    }
+   .rightBox img{
+        /* width:15vw; */
+        height: 155px;
+        border-radius: 5%;
+        border: 1px solid grey;
+        /* transition: all 5s linear ; */
+        transition: transform 1s linear ;
+        /* transition: all 0.6 linear; */
+
+}
+ .rightBox img:hover{
+    transform: scale(1.2);
+}
+
+/* footer css*/
+.footerBox{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(218, 86, 150);
+    color: #f8f3f3;
+    border-top: 3px solid rgba(31, 30, 30, 0.86);
+}
+.footerBox p{
+
+     font-size: 1.3rem;
+     width: 100%;
+     min-height: 40px;
+     border-collapse: collapse;
+}

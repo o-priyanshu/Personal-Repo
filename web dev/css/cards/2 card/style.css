@@ -1,0 +1,154 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    /* width: 100vw;
+    height: 100vh; */
+    
+    padding: 20px;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(135deg, #8BC6EC 0%,#9599E2 100%);
+}
+
+.box1{
+   width: 100%;
+    max-width:400px;
+    
+    /* width:400px;
+    height:600px; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    background-color: #ffffff;
+
+    /* padding: 15px; */
+}
+
+ .box1 img{
+   width: 100%;
+   height: 30%;
+    /* max-width: 400px; */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    /* gap: 25px; */
+ } 
+ .textbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    text-align: center;
+ }
+
+ .box2{
+    width: 80%;
+    height: 10%;
+    background-color: #8BC6EC;
+
+    display: flex;
+    justify-content:center ;
+    align-items:center ;
+    gap: 30px;
+    /* flex-wrap: wrap; */
+
+    padding: 3%;
+    border-radius: 15px;
+}
+.leftBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.under{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+ }
+
+.rightBox  a{
+text-decoration: none;
+
+ }
+
+ .box2 img{
+    width: 60px;
+    height: 10%;
+    border-radius: 50%;
+ }
+ /* .box2{
+    width: 80%;
+    height: 10%;
+    background-color: #8BC6EC;
+
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    gap: 30px;
+    flex-wrap: wrap;
+
+    padding: 2%;
+    border-radius: 15px;
+}
+ .under{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+.box2 a{
+text-decoration: none;
+ }
+
+ .box2 img{
+    width: 20%;
+    height: 10%;
+    border-radius: 50%;
+ } */
+
+ .shadow{
+
+    width: 80%;
+    height: 9%;
+    padding: 10px;
+
+    text-align: center;
+     
+    border: none;
+    border-radius: 10px;
+
+    cursor: pointer;
+
+    background-color: #a317ee;
+    color: rgb(255, 255, 255);
+
+    box-shadow: 2px 6px 10px 1px rgb(46, 46, 48);
+
+ }
+
+ .box1 a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin: 20px;
+ }
+
+

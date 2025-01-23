@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Font changer</h2>
+
+    <label for="fontsize">Font Size</label>
+    <input type="text" id="fontsize" placeholder="Enter fontsize eg- 16px">
+    
+    <label for="fontfamily">Font family</label>
+    <input type="text" id="fontfamily" placeholder="Enter fontfamily eg- itallic">
+    
+    <p id="change">Hello world , I am priyanshu thapa</p> 
+    <button id="btn"> click</button>
+
+    <script>
+        function change1(){
+            const fontsize=document.getElementById("fontsize");
+            const fontfamily=document.getElementById("fontfamily");
+            const change=document.getElementById("change");
+            const button=document.getElementById("btn");
+   
+            fontsize.addEventListener( "input",()=>{
+                const size=fontsize.value
+                 change.style.fontSize =size;
+                 
+                });
+
+                fontfamily.addEventListener( "input",()=>{
+                    const family=fontfamily.value
+                change.style.fontFamily = family;
+                
+            });
+            
+            // button.addEventListener( "click",()=>{
+            //     const size=fontsize.value;
+            //     const family=fontfamily.value;
+            //     if(size)
+            //     change.style.fontSize =size;
+                
+            //     if(family)
+            //     change.style.fontFamily = family;
+            
+
+                // });
+        }
+        change1();
+    </script>
+</body>
+</html>

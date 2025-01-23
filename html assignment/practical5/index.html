@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    table{
+             border-collapse: collapse;
+             width: 100%;
+             margin: 10px;
+             /* height: 40px; */
+    }
+    th,td{
+        border: 2px solid black;
+        padding: 30px;
+    }
+</style>
+<body>
+    <div class="container">
+        <h2>Table</h2>
+       
+        
+        <label for="row">Rows</label>
+        <input type="number" id="row" placeholder="Enter a number">
+
+        <label for="column">columns</label>
+        <input type="number" id="column" placeholder="Enter a number">
+
+       
+        <button id="table1">Create Table</button> 
+    </div>
+
+    <script>
+        function table1(){
+            const row=parseInt(document.getElementById("row").value);
+            const column=parseInt(document.getElementById("column").value);
+
+            if(row <= 0 || column <= 0)
+        {
+             alert("invalid numbers");
+             return;
+            }
+            let table=document.createElement("table");
+            table.setAttribute("border" , "1");
+
+            let thead=document.createElement("thead");
+            table.append(thead);
+            
+            for(let i=1;i<=row;i++){
+            let row1=document.createElement("tr");
+            thead.append(row1);    
+
+            for(let j =1 ; j<=column ; j++)
+            {
+                let column1=document.createElement("td");
+                column.innerText="c";
+                row1.append(column1);
+            }
+        }
+        
+        document.body.append(table);
+    }
+    
+    // document.getElementById("table1").addEventListener ("click",() =>{
+    //         //    buttton.stopPropagation();
+    //             table1();
+
+    //         });
+    document.getElementById("table1").addEventListener ("click",table1);
+    </script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS More selectors</title>
+    <style>
+        /* .boxes:first-line{
+            color: #f81919;
+        }
+        .boxes:first-letter{
+            font-size: 24px;
+        } */
+        .xyz:first-line{
+            color: #f81919;
+        }
+        .xyz:first-letter{
+            font-size: 24px;
+        }
+        /* .xyz *{
+            border: 2px solid black;
+            padding-top: 20px;
+        } */
+        /* .xyz:first-child{
+background-color: yellow;
+        } */
+        /* p,.xyz,[paplu-me="dd"]{
+            background-color: aquamarine;
+            margin-top: 40px;
+         }
+         [data-color="primary"]{
+            background-color: aqua;
+         } */
+          /* .xyz:nth-child(2){
+            background-color: blue;
+          }
+          .xyz:nth-child(3){
+            background-color: aqua;
+          }
+          .xyz p:nth-child(2)::first-line{
+            color: red;
+          } */
+          /* .xyz:nth-last-child(2){
+            color: red;
+          } */
+          /* .xyz:nth-last-child(odd){
+            color: red;
+          } */
+          .boxes:after{
+            content: "hello my name is priyanshu";
+            font-size: 20px;
+            color: red;
+          }
+          .boxes::before{
+            content: "jai ho jai ho jai ho";
+            color: blue;
+            text-transform: capitalize;
+          }
+          /* ::selection{
+            color: blue;
+            background-color: black;
+            ye selection matlab jab tu kissi chij ko copy krta h tab ka color or bg color
+          } */
+           input::placeholder{
+            color: blue;
+            background-color: chartreuse;
+           font-size: 30px;
+
+           }
+           
+
+
+       
+    </style>
+</head>
+<body>
+    <div class="boxes">
+
+        <div  data-color="primary" class="xyz">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, eum expedita quod soluta quibusdam perferendis modi suscipit corrupti. Alias dicta nostrum impedit provident sapiente nam quo repellendus sit doloremque. Ratione, vitae ut. Eum blanditiis voluptate, maiores inventore ea incidunt quis.</p>
+            <p>Lorem ipsum dolor sit.
+                Lorem ipsum dolor sit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi possimus qui velit vero pariatur dignissimos officiis deleniti debitis aspernatur adipisci repudiandae tenetur expedita beatae perspiciatis porro, eos quisquam cumque, placeat recusandae quae corrupti. Odit magnam, beatae optio corporis eligendi eos!
+            </p>
+        </div>
+
+        <div  paplu-me="dd" class="xyz"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta, minus?dipisicing elit. Commodi possimus qui velit vero pariatur dignissimos officiis deleniti debitis aspernatur adipisci repudiandae tenetur expedita beatae perspiciatis porro, eos quisquam cumque, placeat recusandae quae corrupti. Odit magnam, beatae optio corporis eligendi eos!</p></div>
+
+        <div class="xyz"> <p>
+            Lorem, ipsum dolor.dipisicing elit. Commodi possimus qui velit vero pariatur dignissimos officiis deleniti debitis aspernatur adipisci repudiandae tenetur expedita beatae perspiciatis porro, eos quisquam cumque, placeat recusandae quae corrupti. Odit magnam, beatae optio corporis eligendi eos!
+        </p>
+        <input type="text" placeholder=" Enter your name" autofocus>
+    </div>
+
+    </div>
+
+
+</body>
+</html>

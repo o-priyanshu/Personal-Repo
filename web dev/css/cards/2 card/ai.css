@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    font-family: 'Arial', sans-serif;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.card {
+    width: 100%;
+    max-width: 400px;
+    background-color: white;
+    border-radius: 20px;
+    /* padding: 20px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    gap: 25px;
+}
+
+.card-image {
+    width: 100%;
+    height: 30%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    object-fit: cover;
+}
+
+.card-content {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.amount-box {
+    width: 100%;
+    background-color: #8BC6EC;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.amount-left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.amount-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.amount-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.amount-details p {
+    font-size: 16px;
+    color: #333;
+}
+
+.amount-right a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+.payment-button {
+    width: 100%;
+    background-color: rgb(22, 22, 79);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.payment-button:hover {
+    background-color: rgb(32, 32, 105);
+}
+
+.cancel-order a {
+    text-decoration: none;
+    color: rgb(46, 43, 43);
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 15px;
+}

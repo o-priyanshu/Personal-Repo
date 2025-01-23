@@ -1,0 +1,45 @@
+Easy----------
+
+Variable Assignment:
+
+Assign the value 10 to a variable x and print it.
+Basic Arithmetic:
+
+Write a program that takes two numbers as input and prints their sum, difference, product, and quotient.
+String Concatenation:
+
+Write a program that concatenates two strings and prints the result.
+Escape Sequences:
+
+Print the following text using escape sequences:
+
+Medium----------
+
+Conditional Statements:
+
+Write a program that checks if a number is positive, negative, or zero and prints an appropriate message.
+Loops:
+
+Write a program that prints the first 10 natural numbers using a for loop.
+String Manipulation:
+
+Write a program that takes a string as input and prints the string in reverse.
+Palindrome Check:
+
+Write a program that checks if a given string is a palindrome.
+
+Hard------
+
+Prime Number Check:
+
+Write a program that checks if a given number is a prime number.
+String Compression:
+
+Write a program that compresses a string using the counts of repeated characters.
+Example: The string "aabcccccaaa" would become "a2b1c5a3".
+Fibonacci Sequence:
+
+Write a program that prints the first n numbers in the Fibonacci sequence, where n is provided by the user.
+Character Frequency:
+
+Write a program that counts the frequency of each character in a string and prints the result.

@@ -1,0 +1,83 @@
+Easy------------------------------------------------------
+
+----------Variables & Operators
+
+Write a Python program to swap two variables without using a third variable.
+Calculate the area of a rectangle using width and height stored in variables.
+Conditional Statements
+
+Write a program to check if a number is positive, negative, or zero.
+Write a Python program that checks if a given year is a leap year.
+
+--------------Loops
+
+Print the first 10 natural numbers using a for loop.
+Write a program to print the multiplication table of a number entered by the user.
+
+--------------------Strings
+
+Write a Python program to count the number of vowels in a given string.
+Write a program to check if a string is a palindrome (reads the same backward as forward).
+
+---------------------Escape Sequences
+
+Print the following using a single print() statement:
+
+Python Programming
+is fun!
+
+--------------------------------------------------------------------Medium
+
+---------------Variables & Operators
+
+Write a Python program to calculate the roots of a quadratic equation.
+Write a program to take two integers as input and print their quotient and remainder.
+
+----------------Conditional Statements
+
+Write a Python program to determine if a triangle is valid given its three angles.
+Write a program to check if a character entered by the user is uppercase, lowercase, or a digit.
+
+-------------------Loops
+
+Write a program to calculate the factorial of a number using a while loop.
+Write a program to print all prime numbers between 1 and 100.
+
+-------------------Strings
+
+Write a Python program to reverse a string without using slicing.
+Write a program to find the frequency of each character in a given string.
+
+----------------Escape Sequences
+
+Write a program to display a directory path as C:\Users\Name\Documents without errors.
+
+-----------------------------------------------------------------------------------Hard
+
+-------------------Variables & Operators
+
+Write a program that accepts a floating-point number and displays the integer and fractional parts separately.
+Write a program to perform bitwise operations (AND, OR, XOR) on two integers provided by the user.
+
+--------------------------Conditional Statements
+
+Write a program to determine the type of roots (real and equal, real and unequal, or complex) of a quadratic equation.
+Implement a basic login system where a user must enter the correct username and password.
+
+---------------------------Loops
+
+Write a Python program to print a pyramid pattern with * using nested loops.
+Write a program to find the sum of all digits of a number until the result becomes a single digit (e.g., 987 → 24 → 6).
+
+-------------------------------Strings
+
+Write a Python program to check if two strings are anagrams (contain the same characters in a different order).
+Write a program to replace all spaces in a string with underscores and count the total replacements.
+
+---------------------------------Escape Sequences
+
+Write a program to print the following shape using escape sequences:
+markdown
+
+*
+ ```  

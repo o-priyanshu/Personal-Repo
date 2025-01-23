@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 30px;
+}
+.navHead{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.nav,h1{
+    text-align: center;
+    list-style: none;
+    color: rgb(244, 241, 249);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav{
+    text-decoration: none;
+    font-size: large;
+    padding: 5px;
+    margin: 5px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.81);
+    border-bottom: 2px solid #ccc;
+    cursor: pointer;
+}
+img{
+    height: auto;
+    width:   9vw;
+    border-radius: 3.5%;
+    position: relative;
+    float: inline-end;
+    transition:transform  1.5s ease-in-out;
+}
+
+section{   
+    padding: 10px;
+    width: 30vw;
+    height: auto;  
+    font-size: 20px;
+    
+}
+#rasmalai,#rasgullha{
+    border: 2px solid black;
+    width: 30vw;
+    height: auto;
+}
+#container{
+    border: 0px solid white;
+   border-width: 0px 2px 2px 2px;
+    /* border-collapse: collapse; */
+    margin: auto;
+    padding: 50px;
+    width: 40vw;
+    height: 100vh;
+box-shadow: 10px 15px 5px 2px rgb(0, 0, 0);
+background-color: rgb(0, 0, 0);
+color: rgb(238, 238, 238);
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+img:hover{
+    transform: scale(2);
+}
+footer{
+    background-color: rgb(192, 172, 172);
+    border-top: white;
+}

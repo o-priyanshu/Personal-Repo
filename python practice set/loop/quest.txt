@@ -1,0 +1,98 @@
+Loop-Based Questions (Easy to Hard)
+
+Print Numbers
+
+Write a program to print numbers from 1 to 50 using a for loop.
+
+Sum of Natural Numbers
+Write a program to calculate the sum of the first 20 natural numbers using a while loop.
+
+Multiplication Table
+Write a Python program to display the multiplication table of a number entered by the user.
+
+Factorial Calculation
+Write a program to calculate the factorial of a number using a while loop.
+
+Reverse Number
+Write a program to reverse a given number (e.g., 12345 → 54321) using a loop.
+
+Count Digits
+Write a program to count the number of digits in a given number using a while loop.
+
+Print Even Numbers
+Write a program to print all even numbers between 1 and 100 using a for loop.
+
+Check Prime Number
+Write a program to check if a given number is a prime number or not.
+
+Number Pattern
+Write a program to print the following pattern using nested loops:
+
+1  
+1 2  
+1 2 3  
+1 2 3 4  
+1 2 3 4 5  
+
+Sum of Digits
+Write a program to calculate the sum of the digits of a given number using a loop.
+
+--------------------------------Real-Life Scenarios Using Loops---------------------------------
+
+ATM Withdrawal Simulator
+Write a program to simulate ATM withdrawals:
+
+Allow the user to withdraw money multiple times until the balance is ₹0 or the user chooses to exit.
+Display the remaining balance after each withdrawal.
+Fitness Tracker - Step Counter
+Write a program to calculate the total steps taken in a week:
+
+Input the number of steps walked each day for 7 days.
+Display the total steps at the end of the week.
+Fuel Efficiency Calculator
+Write a program to calculate the average fuel efficiency over multiple trips:
+
+For each trip, input the distance traveled and fuel used.
+Continue until the user inputs "0" as the distance.
+Display the average fuel efficiency (distance/fuel) at the end.
+Grocery Store Bill
+Write a program to calculate the total bill at a grocery store:
+
+Allow the user to input the price of each item one by one.
+Enter 0 when done.
+Display the total bill and the number of items purchased.
+Exam Score Calculator
+Write a program to calculate the average score of a class:
+
+Input scores for each student one by one.
+Stop input when the user enters a negative score.
+Display the average score and the total number of students.
+Electricity Usage Tracker
+Write a program to calculate monthly electricity usage:
+
+Input daily electricity usage (in kWh) for 30 days.
+Calculate the total and average electricity usage for the month.
+Salary Increment
+Write a program to calculate the updated salary of employees in a company:
+
+Input the current salary and the increment percentage for each employee.
+Stop when a negative salary is entered.
+Display the updated salary of each employee.
+Car Loan Repayment
+Write a program to simulate monthly loan repayment:
+
+Input the loan amount, interest rate, and monthly repayment.
+Calculate and display the remaining balance after each month until the loan is fully paid.
+Cinema Reservation System
+Write a program to manage cinema seat reservations:
+
+Assume a cinema has 50 seats.
+Allow the user to reserve seats one by one.
+Stop when all seats are reserved or the user chooses to exit.
+Display the number of seats remaining after each reservation.
+Restaurant Order System
+Write a program to take customer orders in a restaurant:
+
+Allow the user to input menu item names and their prices.
+Stop when the user enters "done."
+Display the total bill and a list of items ordered.

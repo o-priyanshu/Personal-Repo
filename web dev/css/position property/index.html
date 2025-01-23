@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .container{
+            margin: auto;
+            width: 90vh;
+            height: 500px;
+
+            display: flex;
+            justify-content: center;
+            justify-items: center;
+            gap: 30px;
+
+            border: 2px solid black;
+        }
+
+        .box {
+            width: 200px;
+            height: 100px;
+
+            border: 2px solid black;
+            text-align: center;
+        }
+        #a1{
+            /* no change by default */
+            position: static;
+        }
+        /* #a2{
+            position: absolute;
+            bottom: 2px ;
+           
+        }      */
+        
+        /* #a3{
+            position: relative;
+            top: 300px ;
+        }      */
+/* 
+        #a4{
+            position: fixed;
+            bottom: 400px;
+        } */
+
+        #a5{
+            position: sticky;
+            top: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="box-container">
+        <div class="container">
+            <div id="a1" class="box">static by default</div>
+        
+            <div id="a2" class="box">absolute</div>
+       
+            <div id="a3" class="box">relative</div>
+       
+            <div id="a4" class="box">fixed</div>
+       
+            <div id="a5" class="box">sticky</div>
+        </div>
+    </div>  
+</body>
+</html>

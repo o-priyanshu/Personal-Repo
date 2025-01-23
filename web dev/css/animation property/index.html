@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style > 
+        .container{
+            width: 400px;
+            height: 500px;
+
+            border: 2px solid black;
+
+            /* for moving box */
+            position: relative  ; 
+            
+        }
+        .box1{
+            width: 100px;
+            height: 100px;
+            background-color: blueviolet;
+            
+            border: 2px solid black;
+            
+            position: absolute;
+            /* 400 - 100 (width) */
+            top: 0px;
+            left: 0px;
+
+            /* box 1 */
+            animation-name: rightMovement;
+            animation-duration: 5s;
+            animation-delay: 1ms;
+        
+        }
+        @keyframes rightMovement{
+            /* 0%{
+                top: 0px;
+                left: 0px;
+                background-color: blueviolet;
+            }
+            25%{
+                top:0px;
+                left: 300px;
+                background-color: rgb(73, 43, 226);
+            }
+            25%{
+                top: 400px;
+                left: 300px;
+                background-color: rgb(43, 113, 226);
+            }
+            75%{
+                top: 400px;
+                left: 0px;
+                background-color: rgb(43, 226, 202);
+            }
+            100%{
+                bottom:0px;
+                left: 0px;
+                background-color: blueviolet;
+            } */
+            0%{
+                top: 0px;
+                left: 0px;
+                background-color: blueviolet;
+            }
+            10%{
+                top:0px;
+                left: 300px;
+                background-color: rgb(73, 43, 226);
+            }
+            50%{
+                top: 400px;
+                left: 300px;
+                background-color: rgb(43, 113, 226);
+            }
+            60%{
+                top: 400px;
+                left: 0px;
+                background-color: rgb(43, 226, 202);
+            }
+            100%{
+                bottom:0px;
+                left: 0px;
+                background-color: blueviolet;
+            }
+            /* form {
+                top: 0;
+                left: 0;
+            }
+            to{
+                right: 300px;
+                bottom: 400;
+            } */
+
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box1"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transistion</title>
+    <link rel="shortcut icon" href="image8-2.webp" type="image/x-icon">
+    <style>
+        .box{
+            height: 100px;
+            width: 100px;
+            background-color: rgb(179, 0, 255);
+
+            /* opacity between 0-1 */
+            opacity: 0.1;
+
+                /* transition-property: all; */
+            /* transition-timing-function: linear; */
+            /* transition-delay: 1ms;
+            transition-duration: 2s; */
+
+            transition:all 1s 1ms;
+            /* transition:background-color 1s 1ms; */
+
+            /* transition: 1.5s; */
+        }
+        #a1:hover{
+            opacity: 4;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+        <div class="container">
+            <div id="a1" class="box"></div>
+            <!-- <div id="a2" class="box"></div>
+            <div id="a3" class="box"></div>
+            <div id="a4" class="box"></div> -->
+            
+        </div>
+</body>
+</html>

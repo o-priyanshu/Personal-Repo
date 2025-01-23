@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css variable</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        :root{
+            --color: rgba(244, 27, 255, 0.49);
+        --seccolor:   rgba(121, 43, 133, 0.259);
+        --defpad: 50px;
+        defop: 0.2;
+        /* --color: green;  */
+
+
+        /* golabalvariable color puri website mai lagegi */
+
+
+    
+    }
+
+        .nav{
+            background-color: var( --color);
+
+        }
+        .paplu{
+            background-color: var( --seccolor);
+        }
+        ul{
+            display: flex;
+        }
+        ul li{
+            list-style: none;
+            margin: 20px;
+            padding: 20px;
+            border: 2px solid var(--seccolor);
+           
+        }
+        ul li:first-child{
+            background-color: var( --color, blue);
+            /* background-color: var( --seccolor); */
+        }
+
+
+    </style>
+</head>
+<body>
+    
+    <div class="nav">
+        <ul>
+            <li>
+                HOME 
+            </li>
+            <li> MENU</li>
+            <li> HELP</li>
+            <li> CUSTOMER </li>
+        </ul>
+    </div>
+    <div class="paplu">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique iusto sint atque odio cumque possimus nemo illo enim dolor illum? Cum voluptatum iusto asperiores, quaerat voluptates ad perferendis odit illum animi blanditiis quis fugit quia exercitationem veritatis quam est voluptatem.
+    </div>
+</body>
+</html>

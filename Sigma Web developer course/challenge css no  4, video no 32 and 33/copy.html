@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          font-family: "Poppins", sans-serif;
+        }
+        :root{
+          --li-first: blue;
+          --li-second: red;
+          --li-third: rgb(106, 106, 83);
+          --li-fourth: rgb(42, 40, 40);
+          --li-fifth: pink;
+          --text-color: white;
+        }
+        nav ul{
+          display: flex;
+          list-style: none;
+          gap: 1rem;
+          align-items: center;
+          justify-content: center;
+        }
+        ul li{
+          color: var(--text-color);
+          padding: 10px 40px;
+          cursor: pointer;
+        }
+        .list-1{
+          background-color: var(--li-first);
+        }
+        .list-2{
+          background-color: var(--li-second);
+        }
+        .list-3{
+          background-color: var(--li-third);
+        }
+        .list-4{
+          background-color: var(--li-fourth);
+        }
+        .list-5{
+          background-color: var(--li-fifth);
+        }
+      </style>
+
+</head>
+<body>
+    <header>
+        <nav>
+          <ul>
+            <li class="list-1">Home</li>
+            <li class="list-2">About</li>
+            <li class="list-3">Section</li>
+            <li class="list-4">Contact</li>
+            <li class="list-5">Projects</li>
+          </ul>
+        </nav>
+      </header>
+</body>
+</html>

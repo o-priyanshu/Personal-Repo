@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* *{
+        margin: 0px;
+        padding: 0px;
+    }
+     table,.head{
+         margin: 5px;
+         padding: 2px;  
+        border: 2px solid black;
+        border-collapse: collapse;
+        
+    } */
+
+</style>
+<body>
+    <div class="container">
+        <h1>Square and cubes of numbers</h1>
+        <table border="5">
+            <thead>
+                <tr>
+                    <th>Number</th>
+                    <th>Square</th>
+                    <th>cubes</th>
+                </tr>
+            </thead>
+
+            <tbody id="result"></tbody>
+
+        </table>
+
+        </div>
+        <script>
+            
+            function cal(){
+
+                let tableBody = document.getElementById("result");
+                for ( let i = 0 ; i <=10 ; i++)
+                {
+                     let square=i*i;
+                     let cube=i*i*i
+                     
+                    //  tableBody.createAttribute(border="1")
+                     let row=document.createElement("tr");
+                     let numberCell=document.createElement("td");
+
+                     numberCell.textContent=i;
+                     row.appendChild(numberCell);
+
+                     let squarecell = document.createElement("td");
+                     squarecell.textContent = square ;
+                     row.appendChild(squarecell);
+
+                     let cubeCell=document.createElement("td");
+                     cubeCell.textContent = cube;
+
+                     row.appendChild(cubeCell);
+
+                     tableBody.appendChild(row);
+
+                }
+                
+            }
+            
+            cal();
+</script>
+</body>
+</html>
+<!-- <button onclick="cal()">Click to generate</button>
+<p> Result <span id="a"></span></p>
+<p> Result <span id="b"></span></p> -->

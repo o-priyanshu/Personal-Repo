@@ -1,0 +1,160 @@
+Write a Python program to check if a given number is odd or even.
+Write a program to determine whether a given year is a leap year.
+Write a Python program to check if a person is eligible to vote based on their age (18 years or older).
+Write a program to find the largest of three numbers entered by the user.
+Write a Python program to classify a character entered by the user as a vowel, consonant, or neither (e.g., digit or symbol).
+Write a program to calculate the grade of a student based on their marks:
+Marks >= 90: Grade A
+Marks >= 80: Grade B
+Marks >= 70: Grade C
+Marks >= 60: Grade D
+Marks < 60: Grade F
+Write a Python program to determine if a triangle is equilateral, isosceles, or scalene based on its three sides.
+Write a program to check if a number is divisible by both 3 and 5.
+Write a Python program to determine if a string starts and ends with the same character (case-insensitive).
+
+ ------------------------------ Real life ----------------------------------
+
+Write a program to calculate the electricity bill based on the following conditions:
+For the first 100 units: ₹5 per unit
+For the next 100 units: ₹7 per unit
+Above 200 units: ₹10 per unit
+
+
+Movie Ticket Price
+Write a program to calculate the ticket price based on a person's age:
+
+Below 5 years: Free
+5–12 years: ₹100
+13–60 years: ₹250
+Above 60 years: ₹150
+
+Traffic Light System
+
+Write a Python program that takes input for the current color of a traffic light ("red," "yellow," or "green") and suggests what action a driver should take ("stop," "slow down," or "go").
+
+Bank Loan Eligibility
+A bank offers loans based on the following criteria:
+
+If your salary is ₹30,000 or above, you’re eligible.
+If your credit score is less than 650, you're not eligible even if your salary qualifies.
+Write a program to determine eligibility based on salary and credit score.
+
+Library Fine
+Write a Python program to calculate a library fine:
+
+If a book is returned on time, no fine.
+If it’s returned late by 1–5 days, ₹2 per day.
+If it’s late by 6–10 days, ₹5 per day.
+If it’s more than 10 days, ₹50 flat fine.
+
+Discount on Shopping
+A store provides discounts based on the purchase amount:
+
+Purchases above ₹10,000: 20% discount
+Purchases between ₹5,000 and ₹10,000: 10% discount
+Purchases below ₹5,000: No discount
+Write a program to calculate the final bill after applying the discount.
+
+Water Bill Calculation
+Write a Python program to calculate the water bill based on the number of liters consumed:
+
+Up to 1,000 liters: ₹2 per liter
+From 1,001 to 2,000 liters: ₹3 per liter
+Above 2,000 liters: ₹5 per liter
+
+Restaurant Tip Calculator
+Write a program to calculate the tip for a restaurant bill:
+
+Service rated "excellent": 20% tip
+Service rated "good": 15% tip
+Service rated "average": 10% tip
+Service rated "poor": No tip
+
+Parking Charges
+A parking lot charges based on the number of hours a vehicle is parked:
+
+Up to 2 hours: ₹20 flat
+For every additional hour after 2 hours: ₹10 per hour
+If the vehicle is parked for more than 10 hours, a flat fee of ₹100 is charged.
+Write a program to calculate the parking charges based on hours parked.
+
+Fitness Tracker
+Write a program to determine a person's activity level based on their daily step count:
+
+Less than 5,000 steps: "Sedentary"
+5,000–7,499 steps: "Lightly Active"
+7,500–9,999 steps: "Moderately Active"
+10,000 steps or more: "Highly Active"
+
+School Admission
+Write a program to determine if a child is eligible for school admission based on the following criteria:
+
+The child's age must be at least 4 years old.
+If the child is exactly 4 years old, an interview is required.
+If the child is above 4, admission is granted without an interview.
+
+Conditional Statements (Easy to Hard)
+
+------------------------------------------------Real-Life Scenarios Using Conditional Statements (Set 2)
+
+Internet Data Usage Alert
+Write a program to check if a user has exceeded their internet data limit:
+
+Monthly data limit: 50GB
+If usage exceeds 50GB, display a message: "You have exceeded your data limit."
+If usage is within the limit, display the remaining data.
+Employee Bonus Calculator
+A company gives bonuses to employees based on their performance:
+
+Rating >= 4.5: 20% of their salary
+Rating between 3.5 and 4.4: 10% of their salary
+Rating below 3.5: No bonus
+Write a program to calculate the bonus based on the employee's rating and salary.
+Speeding Ticket
+Write a program to calculate a speeding fine:
+
+Speed <= 60: No fine
+Speed between 61–80: ₹500 fine
+Speed > 80: ₹1,000 fine
+Cinema Seat Booking
+Write a program to determine ticket availability:
+
+If the number of available seats is greater than or equal to the required tickets, display "Tickets booked successfully."
+If not, display "Not enough seats available."
+Weather Suggestion
+Write a Python program that suggests clothing based on the temperature:
+
+Temperature > 30°C: "Wear light clothes."
+20°C <= Temperature <= 30°C: "Wear normal clothes."
+Temperature < 20°C: "Wear warm clothes."
+Fitness Membership Eligibility
+Write a program to determine eligibility for a fitness membership:
+
+Age >= 18 and weight between 50kg and 100kg: Eligible
+Otherwise: Not eligible
+Restaurant Menu Choice
+Write a program to display a specific menu based on the user's choice:
+
+1: "Vegetarian Menu"
+2: "Non-Vegetarian Menu"
+3: "Vegan Menu"
+Any other number: "Invalid Choice"
+Train Fare Calculator
+Write a program to calculate train fare:
+
+Distance <= 100 km: ₹5 per km
+Distance between 101 and 500 km: ₹4 per km
+Distance > 500 km: ₹3 per km
+Airline Baggage Allowance
+Write a program to check baggage allowance:
+
+Baggage weight <= 20kg: No extra charges
+Baggage weight between 21–30kg: ₹100 per kg
+Baggage weight > 30kg: "Baggage not allowed."
+Phone Battery Status
+Write a program to display a message based on phone battery percentage:
+
+Battery >= 80%: "Battery is fully charged."
+Battery between 50–79%: "Battery is sufficient."
+Battery < 50%: "Battery is low. Please charge your phone."

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CSS selectors</title>
+    <link rel="icon" href="favicon-32x32.png">
+    <style>
+        /* Elementor Selector */
+        /* group selectors are like this means their is a comma p,div,span {
+            color: aqua;
+        } */
+
+        div {
+            background-color: khaki;
+        }
+
+        /* class selector an example of using classes 
+        example no 1*/
+
+        .began {
+            background-color: rgb(30, 210, 141);
+        }
+
+        /* Id Selector offcourse dude its another example
+        example no 3,4 */
+
+        #babu {
+            background-color: deepskyblue;
+
+        }
+
+        /* expample no 2,5 */
+
+
+         /* Child Selectors */
+
+           /* In simple words these are the element which helps the coder to design or re-colour any element with in a element example  */
+           /* <div>  */
+        /* hello world  */
+        /* <p> my name is piyush. </p> */
+        /* </div> */
+        /* i already use div in style element to change bg color but right now its a different case i want to change color of paragraph which is in a div tag so i have to use child sector tags */
+
+        div>p {
+            background-color: rgb(248, 5, 5);
+            color: rgb(0, 0, 0);
+        }
+        /* example no 6 */
+        
+
+        /* Descendant Selector */
+        
+        /* In simple words, this tags helps the coder to re-color or design its codes without the interference of any other elements.It solves the issue of child selector tags ( not works when any other element interfair between child or father element in eg no 6) */
+
+        /* Well sorry but i am going to use another tag for better understandings */
+       
+        span p {
+            background-color: rgba(89, 0, 255, 0.267);
+            color: rgb(53, 77, 13);
+        }
+         /* example no 7 */
+
+         /* Universal selector */
+
+         /* In smiple word it is use to give or reduce margin,padding. (space) */
+
+         *{
+            margin:10%;
+            padding:0%;
+         }
+         
+         /* see kid in your brower after use universal selector your whole things are close to each other without any space is you want a space then change margin and padding */
+
+         /*pseudo Selector */
+         
+         /* In simple words this tag is use for to change color of links after you visited them once like tune koi website ki link dekhi ho to vo blue hoti pr ab tu koi or color bhi dal skta  */
+                        
+        a:visited{
+            color: coral;
+        }
+        a:link{
+            color: chartreuse;
+        }
+        /* a link is agar link visit ni ki h tab ka color */
+        a:active{
+            background-color: rgb(0, 0, 0);
+        }
+        /* this is for bg color jab app uspe click karenge tab
+        these for anker tags */
+
+        a:hover{
+            background-color: cornflowerblue;
+        }
+        /* is ka matlab click ni kiya just click kr k see kr ne pe kn sa color */
+
+
+        p :first-child{
+background-color: aqua;
+        }
+
+
+
+
+        /* example no 8 */
+      
+    </style>
+</head>
+<body>
+
+    <h1> Example no 1 </h1>
+    <div>
+        Lorem ipsum dolor sit.
+    </div>
+
+
+    <h1> Example no 2</h1>
+    <p id="babu"> If you don't want bg color in another div or any another elements.In that case give those element
+        class or id tag yeah dude example are there so don't worry.</p>
+
+
+    <h1>Example no 3</h1>
+    <div class="began">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam, quam.
+    </div>
+
+
+    <h1> Example no 4</h1>
+    <span class="began">
+        another example( test subject )
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex nisi ad voluptates quasi labore officiis nobis sit
+        veniam omnis, modi deserunt tempora commodi aliquid exercitationem veritatis delectus accusamus quia illo.
+    </span>
+
+
+    <h1>Example no 5</h1>
+    <span id="babu">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam qui officiis quos laborum? Dolores non magni unde
+        sequi ea minus, dolorem nobis numquam? Consectetur facere assumenda quisquam eveniet deleniti commodi.
+    </span>
+
+     <h1> Example no 6 </h1>
+     <div>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+     </div>
+
+     <div>
+        <article>
+            <p> 
+                See in this one child Selector is not applicable.In this one div tag changes color.
+                Child Selector is only applicable when there is direct element like in this case there were article tag btw div and p so not applicable. SO, its now a problem right dude then use <b> Descendant Selector </b>
+            </p>
+        </article>
+     </div>
+
+     <h1> Example no 7</h1>
+     <span>  
+         <article>
+            <p>
+                <b> Now you can see how this tag overcomes the issue of child tag i litterally  use multiple tags and elements btw span but it changes right color</b>
+            </p>
+         </article>
+     </span>
+
+     <h1>Example no 8</h1>
+     <a href="https://www.google.com">Go to Google</a>
+     <a href="https://www.Facebook.com">Go to Facebook</a>
+
+     <main class="kachua">
+        <p> I am one </p>
+        <p> I am second </p>
+     </main>
+
+
+</body>
+
+</html>

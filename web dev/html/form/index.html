@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    
+    <h1>Other form Examples</h1>
+    <ul>
+        <li><a href="complexform.html">complexform</a></li>
+        <br/>
+        <li><a href="form2.html">Job Application</a></li>
+        <br/>
+        <li><a href="complexform2br.html">complexform with br tag</a></li>
+    </ul>
+
+
+    
+    <!-- in form we can use action attribute also  like this <form action="post">-->
+    <h2> Event Registration</h2>
+    <form>
+        <label for="name">Name:</label>
+
+        <br />
+        <br />
+
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+        <br />
+        <br />
+
+        <label for="email">Email:</label>
+
+        <br />
+        <br />
+
+
+        <input type="email" id="email" name="email" placeholder="enter your email id" required>
+
+        <br />
+        <br />
+
+        <label for="phone number">Phone Number:</label>
+
+        <br />
+        <br />
+
+        <input type="tel" id="phone number" name="phone number" placeholder="enter your phone number" required>
+
+        <br />
+        <br />
+
+        <label for="occupation">Occupation:</label>
+
+        <br />
+        <br />
+
+        <select name="occupation" id="occupation">
+            <option value="Student">Student</option>
+            <option value="professional">Professional</option>
+            <option value="other">Other</option>
+
+        </select>
+
+        <br />
+        <br />
+
+        <fieldset>
+            <legend>Topics of Interest:</legend>
+
+            <label for="html">HTML </label>
+
+            <br />
+            <br />
+
+            <input type="checkbox" id="html" name="html">
+
+            <label for="js">Java Script</label>
+
+            <br />
+            <br />
+
+            <input type="checkbox" id="js" name="js">
+
+            <label for="CSS">CSS</label>
+
+            <br />
+            <br />
+
+            <input type="checkbox" id="CSS" name="CSS">
+
+        </fieldset>
+
+        <br />
+        <br />
+
+
+        <label for="comment">Comments:</label>
+        <textarea name="comment" id="comment" placeholder="enter your experiences...." rows="5px"
+            cols="20px"></textarea>
+
+        <input type="submit" value="Register">
+
+    </form>
+</body>
+
+</html>

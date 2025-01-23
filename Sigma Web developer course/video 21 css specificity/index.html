@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css specificity</title>
+    <style>
+        /* position,specificity,origin,importance */
+        /* priority important < style < inline  < id < class or attribute < elements < universal */
+
+        /* the specificity  value of h1 is 1  */
+        /* avoid to use important or inline */
+
+        h1{
+            color: aqua;
+        }
+
+
+        /* specificity value is 10  */
+
+
+        .yellow{
+            color: yellow;
+        }
+
+
+        /* specificity value is 10   */
+
+
+        .red{
+            color: red;
+        }
+
+
+        /* specificity value is 10   */
+
+
+
+        .blue{
+            color: blue;
+        }
+
+
+        /* Eg of attribute seletector and specificity of this is 10 */
+
+
+        [sigma=bibi]{
+            color: blueviolet;
+        }
+     
+    </style>
+</head>
+<body>
+    <h1 class="yellow red blue" sigma="bibi"> CSS Specificity</h1>
+    <p>
+        priority kiss ko deni h means kn se element ko priority deni hai.
+    </p>
+</body>
+</html>

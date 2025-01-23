@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main()
+{
+    int n,i;
+
+    printf("Enter a number : ");
+    scanf("%d",&n);
+
+  if(n<=0)
+    {
+        printf("Invalid number number > 0");
+        return 0;
+    }
+    
+    printf("First %d odd numbers in reverse \n",n);
+    for ( i = n ; i >0 ; i--)
+    {
+        printf("%d\n",2*i - 1 );
+    }
+    return 0;
+}
