@@ -112,3 +112,61 @@
 #     sum=sum+reminder
 #     num=num//10
 # print(sum)
+
+#11- Write a program to reverse a number
+# num=int(input('Enter a number : '))
+# reverse=0
+# while (num >0 ) :
+#     reminder=num % 10
+#     reverse=reverse * 10 + reminder
+#     num=num//10
+# print(reverse)
+
+# 12 - Write a program for a perfect number
+# num=int(input('Enter a number : '))
+# sum=0
+# for i in range(1,(num//2)+1):
+#     if num % i == 0:
+#         sum+=i
+# if sum==num:
+#     print('its a perfect number')
+# else :
+#     print('Its not a perfect number')    
+
+# Number Pattern
+# 13- Write a program to print the following pattern using nested loops:
+
+# 1    
+# 1 2  
+# 1 2 3  
+# 1 2 3 4  
+# 1 2 3 4 5  
+
+# num=int(input('how many times you want to print  : '))
+# for i in range(0,num):
+#     for j in range(0 ,i+1 ):
+#         print(j+1,end=' ')
+#     print(end='\n')
+
+# 14- write a program to calculate simple interest 
+
+# p=float(input("enter principle amount : "))
+# n=float(input("Number of years: "))
+# rate=float(input("Rate : "))
+
+# si=p*n*rate/100
+# print(si)
+
+# 15- Write a program that prints numbers from 1 to 10 using a infinte loop.
+# all numbers should get printed in the same line 
+
+# i=1
+# while (1):
+#     print(i,end=' ')
+#     i+=1
+#     if(i>10):
+#           break;
+
+# 16- Write a program that prints all unique combinations of 1,2 and 3
+
+# 17- Write a program that obtains decimal value of a binary numeric string

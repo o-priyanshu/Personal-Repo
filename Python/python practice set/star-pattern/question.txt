@@ -1,0 +1,9 @@
+1- Write a program to print the following right-angled triangle star pattern for a given n:
+
+*
+* *
+* * *
+* * * *
+* * * * *
+
+
